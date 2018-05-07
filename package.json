@@ -1,0 +1,19 @@
+{
+  "name": "talk-contained-nodeapp",
+  "version": "0.0.1",
+  "description": "Demo project for my containers talk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon"
+  },
+  "keywords": [],
+  "author": "David Wood <david.p.wood@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
