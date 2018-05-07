@@ -5,6 +5,7 @@ WORKDIR /usr/src/app
 COPY . .
 
 RUN npm install --only=production
+RUN find ./node_modules/moment/locale -type f ! -name 'en*' -delete
 
 # Production
 FROM node:8-alpine
